@@ -7,7 +7,7 @@ requirements = [
     "torch==1.6.0",
     "torchvision==0.7.0",
     "pillow>=4.1.1",
-    "fairseq>=0.10.2",
+#   "fairseq>=0.10.2",
     "transformers>=4.0.0",
     "sentence_transformers>=0.4.1.2",
     "nltk>=3.5",
@@ -30,7 +30,7 @@ setup(
     name="pororo",
     version=VERSION["version"],
     description="Pororo: A Deep Learning based Multilingual Natural Language Processing Library",
-    long_description=open("README.md").read(),
+    long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
     classifiers=[
         "Intended Audience :: Developers",
